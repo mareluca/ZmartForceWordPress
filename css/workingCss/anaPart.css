@@ -1,0 +1,188 @@
+/*Ana's variables*/
+#header {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#header .desktop-navigation {
+  height: 150px;
+  width: 100%;
+}
+#header .desktop-navigation .container-logo {
+  height: 150px;
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+#header .desktop-navigation .container-logo a img {
+  position: relative;
+  top: -15px;
+  height: 150px;
+  width: 150px;
+  transform: rotateX(40deg);
+}
+#header .desktop-navigation .container-logo #zmart {
+  font-family: Montserrat, sans-serif;
+  position: relative;
+  top: -50px;
+  font-size: 40px;
+  transform: rotateX(40deg);
+  color: #ff8c00;
+}
+#header .desktop-navigation .desktop-link-list-container {
+  text-align: right;
+  height: 150px;
+  float: left;
+  width: 80%;
+}
+#header .desktop-navigation .desktop-link-list-container ul {
+  margin-top: 110px;
+}
+#header .desktop-navigation .desktop-link-list-container ul li {
+  display: inline;
+  padding-left: 30px;
+}
+#header .desktop-navigation .desktop-link-list-container ul li a {
+  font-family: Montserrat, sans-serif;
+  color: #4c4c4c;
+  font-size: 18pt;
+}
+#header .desktop-navigation .desktop-link-list-container ul li a:hover {
+  color: #ff8c00;
+}
+/*ID1 DIV*/
+#id1 {
+  padding: 0;
+  max-height: 685px;
+  overflow: hidden;
+}
+#id1 .owl-carousel .item img {
+  max-height: 1000px;
+}
+#id1 .owl-carousel .item .container {
+  text-align: right;
+  z-index: 1000;
+  position: absolute;
+  top: 550px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+#id1 .owl-carousel .item .container .owl-text-overlay {
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+}
+#id1 .owl-carousel .item .container h2.owl-title {
+  font-size: 58pt;
+  font-weight: bold;
+}
+#id1 .owl-carousel .owl-nav {
+  margin-top: 0px;
+}
+#id1 .owl-carousel .owl-nav .owl-prev {
+  background: transparent;
+  position: absolute;
+  top: 35%;
+  left: 5%;
+}
+#id1 .owl-carousel .owl-nav .owl-prev .fa {
+  font-size: 22pt;
+}
+#id1 .owl-carousel .owl-nav .owl-prev .fa:hover {
+  color: snow;
+}
+#id1 .owl-carousel .owl-nav .owl-next {
+  background: transparent;
+  position: absolute;
+  top: 35%;
+  right: 5%;
+}
+#id1 .owl-carousel .owl-nav .owl-next .fa {
+  font-size: 22pt;
+}
+#id1 .owl-carousel .owl-nav .owl-next .fa:hover {
+  color: snow;
+}
+/*ID2 DIV*/
+#id2 {
+  background: #4c4c4c;
+  margin: 0px;
+  padding: 0px;
+}
+#id2 .container {
+  padding-top: 13px;
+  padding-bottom: 15px;
+}
+#id2 .container .list-style {
+  list-style: none;
+}
+#id2 .container .list-style li {
+  float: right;
+}
+#id2 .container .list-style li a #p1:hover {
+  content: url("../img/twitterHover.png");
+}
+#id2 .container .list-style li a #p2:hover {
+  content: url("../img/facebookHover.png");
+}
+/* ID3 DIV*/
+#id3 {
+  height: 900px;
+}
+#id3 .container .row {
+  padding: 0px;
+}
+#id3 .container .row .col-lg-4 .jumbotron {
+  background: transparent;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 130px;
+  padding-bottom: 200px;
+  padding-left: 40px;
+}
+#id3 .container .row .col-lg-4 .jumbotron p {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: grey;
+}
+#id3 .container .row .col-lg-4 .jumbotron .card {
+  border: none;
+  width: 100%;
+  height: auto;
+}
+#id3 .container .row .col-lg-4 .jumbotron .card .card-body {
+  margin-bottom: 10px;
+}
+#id3 .container .row .col-lg-4 .jumbotron .card .card-body .btn {
+  font-family: 'Roboto', sans-serif;
+  background: #ff8c00;
+  border-radius: 1000px;
+  padding: 20px 60px;
+  color: #ffffff;
+  display: inline-block;
+  font: normal 400 20px/1 "Roboto";
+  text-align: center;
+  text-shadow: 1px 1px #000000;
+  margin-left: 0px;
+}
+#id3 .container .row .col-lg-4 .jumbotron .card .card-body .card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font: bold 900 30px/1 "Montserrat";
+  margin-top: 10px;
+  padding: 0px;
+  width: auto;
+  height: 70px;
+  color: #4e677a;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+#id3 .container .row .col-lg-4 .jumbotron .card .card-body .card-text {
+  font-size: 18px;
+  color: #8b8b8b;
+  font-weight: 400;
+  padding-bottom: 0px;
+}
